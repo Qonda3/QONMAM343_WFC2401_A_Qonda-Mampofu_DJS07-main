@@ -1,12 +1,15 @@
 import Header from "../components/Header";
 import Meme from "../components/Meme";
 
+// The main App component
 function App() {
   return (
     <div>
-      <Header />\
+      {/* Render the Header component */}
+      <Header />
+      {/* Render the Meme component */}
       <Meme />
-    </div> 
+    </div>
   );
 }
 
